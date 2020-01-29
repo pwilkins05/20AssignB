@@ -119,12 +119,7 @@ int main()
         fives = tabulateDice(5, die1, die2, die3, die4, die5);
         sixes = tabulateDice(6, die1, die2, die3, die4, die5);
 
-        int scoreOption = getScoreOption(onesScore, twosScore, threesScore, foursScore,
-                                         fivesScore, sixesScore, threeOfAKind,
-                                         fourOfAKind, fullHouse, smallStraight,
-                                         largeStraight, yahtzee, chance);
-
-        /*switch (scoreOption)
+        int scoreOption
         {
             case ONES:
                 onesScore = scoreOnes(ones, twos, threes, fours, fives, sixes);
@@ -165,7 +160,6 @@ int main()
             case CHANCE:
                 chance = scoreChance(ones, twos, threes, fours, fives, sixes);
                 break;
-        }*/
 
         printScore(onesScore, twosScore, threesScore, foursScore, fivesScore, sixesScore,
                    threeOfAKind, fourOfAKind, fullHouse, smallStraight, largeStraight, yahtzee, chance);
