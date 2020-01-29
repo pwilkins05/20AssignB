@@ -1,0 +1,36 @@
+Yahtzee Rules
+
+In Yahtzee, players take turns rolling a set of five dice, then assign those dice to a category in which they are scored.
+
+// Todo: turn description
+
+// Todo: explain assigning score, including that fact that you can't repeat categories, and assigning zero to categories where conditions are not met
+
+
+Scoring:
+
+Upper section:
+
+
+Categories are ones, twos, threes, fours, fives, and sixes.  In each category, to number of points scored is equal to the 
+total number of pips on those dice.  For example, if your rolled three 4s, that would score 12 in the fours category.
+
+// Todo: explain upper section bonus
+
+
+Lower section:
+
+Three-of-a-kind:
+
+Four-of-a-kind:
+
+Full House:
+
+Small Straight:
+
+Large Straight:
+
+Yahtzee:
+
+Chance:
+
