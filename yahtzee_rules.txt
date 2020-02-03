@@ -4,10 +4,7 @@ In Yahtzee, players take turns rolling a set of five dice, then assign those dic
 
 // Todo: turn description
 
-// Todo: explain assigning score, including that fact that you can't repeat categories, and assigning zero to categories where conditions are not met
-
-
-Scoring:
+Scoring: After each turn's final roll you do you then assign that roll to a scoring category. In order to score any points in the category you muss fulfill the category's rule. Each category has a deferent rule and is scored deferently and can only be used once. If you assign a roll to a category that doesn't fulfill the that rule, it will earn you zero points. You also cannot move rolls or trade rolls from one category to another, you can only use each catigoary once and cannot change the roll when you commit it.
 
 Upper section:
 
