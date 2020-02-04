@@ -12,7 +12,11 @@ Upper section:
 Categories are ones, twos, threes, fours, fives, and sixes.  In each category, to number of points scored is equal to the 
 total number of pips on those dice.  For example, if your rolled three 4s, that would score 12 in the fours category.
 
-// Todo: explain upper section bonus
+Brandon's addition:
+In the upper scores, you total only the specified die face. So if you roll:
+<3> <3> <4> <3> <6>
+and score in the Threes category, your total for that entry would be 9. This same roll would yield zero points if you scored it in the Aces (Ones), Twos, or Fives category, four points if you scored it in the Fours category, or six points if you scored it in the Sixes category.
+When the game is over, if you score 63 or more upper points (an average of 3 die faces per category), you will get an upper bonus of 35 points. Of course do don't need to score exactly three die faces in each upper category to get the bonus, as long as the upper total is at least 63.
 
 
 Lower section:
