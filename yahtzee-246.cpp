@@ -16,7 +16,7 @@
 // TODO switch to using array for dice
 // TODO: add yahtzee bonus score
 // TODO: implement scoring functions (see switch statement, line 125)
-// TODO: make ask reroll accept lowercase letters
+// TODO: make ask reroll accept lowercase letters  - done DH
 // BUG: dice not holding correct values
 
 using namespace std;
@@ -204,9 +204,9 @@ bool askReroll(int n)
         cin >> ch;
         switch (ch)
         {
-            case 'Y':
+            case 'Y': case 'y' :
                 return true;
-            case 'N':
+            case 'N': case 'n' :
                 return false;
             default:
                 cout << "Invalid response" << endl;
