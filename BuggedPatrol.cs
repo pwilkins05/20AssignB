@@ -48,7 +48,7 @@ public class Patrol : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other)                        						//bug here
+    void OnTriggerEnter(Collider other)                        		//bug here (should be onExit)
     {
         counter = 0;
     }
