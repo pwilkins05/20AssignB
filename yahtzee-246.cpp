@@ -17,7 +17,7 @@
 // TODO: add yahtzee bonus score
 // TODO: implement scoring functions (see switch statement, line 125)
 // TODO: make ask reroll accept lowercase letters  - done DH
-// BUG: dice not holding correct values
+// BUG: dice not holding correct values - fixed Jonus
 
 using namespace std;
 
@@ -71,11 +71,11 @@ int main()
     {
         int round = 1;
         ones = twos = threes = fours = fives = sixes = 0;
-        die1 = rand() % SIDES;
-        die2 = rand() % SIDES;
-        die3 = rand() % SIDES;
-        die4 = rand() % SIDES;
-        die5 = rand() % SIDES;
+        die1 = rand() % SIDES + 1;
+        die2 = rand() % SIDES + 1;
+        die3 = rand() % SIDES + 1;
+        die4 = rand() % SIDES + 1;
+        die5 = rand() % SIDES + 1;
 
         printRoll(die1, die2, die3, die4, die5);
 
@@ -89,23 +89,23 @@ int main()
 
             if (redo1)
             {
-                die1 = rand() % SIDES;
+                die1 = rand() % SIDES + 1;
             }
             if (redo2)
             {
-                die2 = rand() % SIDES;
+                die2 = rand() % SIDES + 1;
             }
             if (redo3)
             {
-                die3 = rand() % SIDES;
+                die3 = rand() % SIDES + 1;
             }
             if (redo4)
             {
-                die4 = rand() % SIDES;
+                die4 = rand() % SIDES + 1;
             }
             if (redo5)
             {
-                die5 = rand() % SIDES;
+                die5 = rand() % SIDES + 1;
             }
 
             printRoll(die1, die2, die3, die4, die5);
@@ -119,6 +119,7 @@ int main()
         fives = tabulateDice(5, die1, die2, die3, die4, die5);
         sixes = tabulateDice(6, die1, die2, die3, die4, die5);
 
+        /*
         int scoreOption
         {
             case ONES:
@@ -164,6 +165,7 @@ int main()
         printScore(onesScore, twosScore, threesScore, foursScore, fivesScore, sixesScore,
                    threeOfAKind, fourOfAKind, fullHouse, smallStraight, largeStraight, yahtzee, chance);
     }
+    */
 }
 
 /*********************************************************
