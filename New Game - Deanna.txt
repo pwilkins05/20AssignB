@@ -1,8 +1,8 @@
 
-Proposal for a dice game 
+Proposal for a dice game: 
 
-One game I like to play is called, "Ship, Captain, Crew".  Any number of players can be in a round and rounds are very fast.  It's simple to play and the speed of play keeps it interesting.
+One game I like to play is called, "Ship, Captain, Crew". Any number of players can be in a round and rounds are very fast. It's simple to play and the speed of play keeps it interesting.
 
-Player has 5 dice and keeps the sixes, only.  The first 6 is the ship, the second is the captain and the third is the crew.  The remaining dice can be rerolled 2 more times to get the highest possible score.  There is no score if the player gets fewer than 3 sixes, and the total of the last two dice is the score if there are at least 3 sixes.
+The player has five dice and keeps the sixes, only. The first six is the ship, the second is the captain and the third is the crew. The remaining dice can be re-rolled two more times to get the highest possible score. There is no score if the player rolls fewer than three sixes, and the total of the last two dice is the score if there are at least 3 sixes.
 
-This game will be easy to program using the same reroll method as Yahtzee, but we will need to add more multiplayer functionality.
+This game will be easy to program using the same re-roll method as Yahtzee, but we will need to add multiplayer functionality.
